@@ -90,7 +90,7 @@ $tag->delete($tagId);
 $userTags = $tag->userTags($openId);
 //
 // {
-//     "tagid_list":["标签1","标签2"]
+//     "tagid_list":[101, 102]
 // }
 ```
 
