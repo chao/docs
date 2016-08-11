@@ -84,13 +84,14 @@ example:
 $tag->delete($tagId);
 ```
 
-### 获取指定 openid 用户身上的标签
+### 获取指定 openid 用户身上的标签id
+
 
 ```php
 $userTags = $tag->userTags($openId);
 //
 // {
-//     "tagid_list":["标签1","标签2"]
+//     "tagid_list":["id1","id2"]
 // }
 ```
 
